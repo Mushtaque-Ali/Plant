@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+#left{
+    width: 80%;
+    height: 100%;
+}
+#right{
+    width: 20%;
+    height: 100%;
+}
+#left #ltop{
+    width: 100%;
+    height: 70%;
+    background-image: url(https://images.unsplash.com/photo-1501004318641-b39e6451bec6?q=80&w=1373&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+}
+#left #lbottom{
+    padding: 55px 150px;
+    width: 100%;
+    height: 30%;
+    background-color: #222;
+}
+#right #rtop{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 70%;
+    padding: 70px;
+    background-color: #fff;
+}
+#right #rbottom{
+    width: 100%;
+    height: 30%;
+    background-color: #dadada;
+}
+#lbtmcontain{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+#containleft{
+    width: 45%;
+    height: 100%;
+    color: #fff;
+}
+#containleft p{
+    margin-top: 15px;
+    font-size: 12px;
+    font-weight: 500;
+}
+#containright{
+    width: 45%;
+    height: 100%;
+    color: #fff;
+}
+.leftrow{
+    display: flex;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.rowtext{
+    margin-left: 10px;
+}
+.rowtext h6{
+    font-size: 10px;
+    font-weight: 500;
+    opacity: .7;
+}
+#rtop a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode',  'Lucida Sans',;
+    letter-spacing: 2.5px;
+}
+
+#rtop a:nth-child(2){
+    margin-left: 20px;
+    position: relative;
+}
+
+
+#rtop a:nth-child(2)::before{
+    content: "";
+    position: absolute;
+    left: -30px;
+    margin-top: 7px;
+    margin-left: 10px;
+    width: 13px;
+    height: 1px;
+    top: 2px;
+    background-color: #000;
+}
+.case{
+    margin-left: 10px;
+}
+.ri-community-line{
+    margin-right: 12px;
+}
